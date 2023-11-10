@@ -10,10 +10,10 @@ interface CampProps {
 
 const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
   return (
-    <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
+    <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-5xl 2xl:rounded-5xl`}>
      <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
       <div className="flexCenter gap-4">
-        <div className="rounded-full bg-green-50 p-4">
+        <div className="rounded-full bg-yellow-50 p-4">
           <Image
             src="/folded-map.svg"
             alt="map"
@@ -59,9 +59,9 @@ const Camp = () => {
         />
         <CampSite 
           backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
-          peopleJoined="50+ Joined"
+          title="Nanda Devi trek"
+          subtitle="Uttarakhand"
+          peopleJoined="10+ Joined"
         />
       </div>
 

@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: '/', key: 'about_trekbuddy', label: 'About TrekBuddy' },
   { href: '/', key: 'services', label: 'Services' },
   { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
@@ -52,8 +52,7 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
-      'Press Releases',
+      'About TrekBuddy',
       'Environment',
       'Jobs',
       'Privacy Policy',
@@ -62,15 +61,15 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    links: ['Climbing ', 'Hiking', 'Treking', 'Camping', 'Guides'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Admin ', value: '+91 1234567890' },
+    { label: 'Email ', value: 'uiuxsubham@gmail.com' },
   ],
 };
 
