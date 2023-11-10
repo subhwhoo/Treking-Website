@@ -1,85 +1,79 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'about_trekbuddy', label: 'About TrekBuddy' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: "/", key: "home", label: "Home" },
+  { href: "/", key: "about_trekbuddy", label: "About TrekBuddy" },
+  { href: "/", key: "services", label: "Services" },
+  { href: "/", key: "pricing ", label: "Pricing " },
+  { href: "/", key: "contact_us", label: "Contact Us" },
 ];
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+  "/person-1.png",
+  "/person-2.png",
+  "/person-3.png",
+  "/person-4.png",
 ];
 
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
+    title: "Detailed information",
+    icon: "/calendar.svg",
+    variant: "green",
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      "TrekBuddy provides detailed information about each trek, including maps, elevation profiles, packing lists, and reviews from other trekkers.",
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
+    title: "Real maps can be offline",
+    icon: "/map.svg",
+    variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
+    title: "Comprehensive database",
+    icon: "/location.svg",
+    variant: "orange",
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      "TrekBuddy has a database of thousands of treks from all over the world, so you are sure to find the perfect trek for you.",
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
+    title: "User-friendly interface",
+    icon: "/tech.svg",
+    variant: "green",
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      "TrekBuddy has a large and active community of trekkers who are always happy to help and answer questions",
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: "Learn More",
     links: [
-      'About TrekBuddy',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      "About TrekBuddy",
+      "Environment",
+      "Jobs",
+      "Privacy Policy",
+      "Contact Us",
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing ', 'Hiking', 'Treking', 'Camping', 'Guides'],
+    title: "Our Community",
+    links: ["Climbing ", "Hiking", "Treking", "Camping", "Guides"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: "Contact Us",
   links: [
-    { label: 'Admin ', value: '+91 1234567890' },
-    { label: 'Email ', value: 'uiuxsubham@gmail.com' },
+    { label: "Admin ", value: "+91 1234567890" },
+    { label: "Email ", value: "uiuxsubham@gmail.com" },
   ],
 };
 
 export const SOCIALS = {
-  title: 'Social',
-  links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
-  ],
+  title: "Social",
+  links: ["/facebook.svg", "/instagram.svg", "/twitter.svg", "/youtube.svg"],
 };
